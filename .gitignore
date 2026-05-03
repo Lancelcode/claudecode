@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# uv
+# uv.lock is intentionally committed for reproducibility
+
+# Environment — never commit secrets
+.env
+
+# Editor
+.idea/
+.vscode/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pytype/
