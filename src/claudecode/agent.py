@@ -8,7 +8,7 @@ from typing import Any
 
 from openai import OpenAI
 
-from claude_code import tools
+from claudecode import tools
 
 logger = logging.getLogger(__name__)
 

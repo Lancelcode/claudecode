@@ -56,7 +56,7 @@ The model can also be set via the `CLAUDE_CODE_MODEL` env variable.
 
 ```
 src/
-  claude_code/
+  claudecode/
     cli.py      # Argument parsing and startup
     agent.py    # Agent loop — sends messages, handles tool calls, loops
     tools.py    # Tool definitions (schemas) and implementations

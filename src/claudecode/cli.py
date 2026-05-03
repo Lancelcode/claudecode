@@ -10,7 +10,7 @@ import sys
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from claude_code import agent
+from claudecode import agent
 
 DEFAULT_MODEL = "anthropic/claude-haiku-4-5"
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
